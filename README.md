@@ -5,5 +5,4 @@
 - No needed extra libraries
 - Support unicode symbols
 - Support color schemes
-- Compartible with Python 3.6+
-- Compartible with Windows, Linux, Mac OS
+- Compartible with Python 3.6+ on Windows, Linux, Mac OS
