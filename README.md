@@ -2,6 +2,7 @@
 
 ## Features
 - Easy to use
+- No needed extra libraries
 - Support unicode symbols
 - Support color schemes
 - Compartible with Python 3.6+
