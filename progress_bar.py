@@ -48,20 +48,25 @@ class ProgressBar:
 
 
 def main():
-    print("-= Regular progress bar =-")
-    pb = ProgressBar('ProgressBar 1')
+    # print("-= Regular progress bar =-")
+    pb = ProgressBar('#1')
     pb.show(17.0)
     print('\n')
 
-    print("-= Progress bar with unicode symbol =-")
-    pb = ProgressBar('ProgressBar 2', bar_char='█')
-    pb.show(45.0)
+    # print("-= Progress bar with unicode symbol =-")
+    pb = ProgressBar('#2', bar_char='█')
+    pb.show(35.0)
     print('\n')
 
-    print('-= Colored progress bar with unicode symbols =-')
+    # print("-= Progress bar with unicode symbol =-")
+    pb = ProgressBar('#3', bar_char='▷')
+    pb.show(42.0)
+    print('\n')
+
+    # print('-= Colored progress bar with unicode symbols =-')
     fnts = FontScheme(Title=Font.LightPurple, Bar=Font.Yellow, Percentage=Font.LightGreen)
-    pb = ProgressBar('ProgressBar 3', bar_char='★', font_scheme=fnts)
-    pb.show(97.54)
+    pb = ProgressBar('#4', bar_char='★', font_scheme=fnts)
+    pb.show(97.5)
     print('\n')
 
 
