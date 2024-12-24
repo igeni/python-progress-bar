@@ -9,7 +9,7 @@ A lightweight, customizable progress bar for Python3.6+
 
 ## Installation
 Install the library via pip:
-pip install python-progress-bar
+pip install console-python-progress-bar
 
 ## Usage
 Here's a quick example to get started:
